@@ -1,0 +1,78 @@
+/* tablet Layout */
+@media only screen and (min-width:200px) and (max-width:991px){
+
+   .social_area {max-width: 460px;}
+
+   .inner_header { padding: 20px 0; }
+
+   .inner_manu { background: none;min-width: auto;}
+   
+   .inner_manu::after {display: none;}
+
+   .mean-container .mean-nav {margin-top: 0px;width: 80%; }
+
+   .mean-container .mean-bar {margin-bottom: 15px;}
+
+   .search_area form { width: 90%; padding: 1% 4%; }
+
+   .search_area input[type="submit"] { background-size: 21px; width: 11%;}
+
+   .social_area { max-width: 460px;  padding-top: 16px;}
+
+   #slider_area {margin-top: 0px;}
+
+   .inner_hero_area h2 { font-size: 70px;}
+
+   .inner_hero_area { padding-bottom: 10px; }
+
+   #work_area { padding: 30px 0;}
+
+   .child_area h2 { font-size: 23px; margin-bottom: 40px;}
+
+   img { max-width: 90%;}
+
+   .child_service_area .service_text h3 { font-size: 15px; margin-top: 2px; margin-bottom: -15px; }
+
+   .child_service_area .service_image {width: 22%; margin-bottom: 12px; }
+
+   .child_testimonial h3 {font-size: 15px; padding: 8px 0px 4px 60px; background-size: 40px; }
+
+   .child_area a { font-size: 14px; }
+
+   .child_testimonial p { margin-bottom: 10px; }
+
+   .child_footer h3 { font-size: 14px;}
+
+   #copyright_area { padding: 10px 0;}
+
+
+}
+/* Mobile Layout */
+@media only screen and (min-width:200px) and (max-width:480px){
+
+   .mean-container .mean-nav ul li a.mean-expand {height: 25px;}
+   .mean-container .mean-bar { margin-bottom: 10px; }
+   .mini_manu {width: 106%; margin-bottom: 10px;}
+   .mini_manu ul,.social_area ul { text-align: center; }
+   .search_area, .logo_area {float: none; width: 250px; margin: 0 auto; text-align: center; }
+   .social_area ul li { margin: 0 5px; }
+   element {height: none; }
+   section .slider_area .item img { width: auto; height: auto;}
+   section .slider_area .item .caption { font-size: 17px; }
+   img {  max-width: 100%; }
+   .inner_hero_area h2 { font-size: 25px; }
+   .inner_hero_area a { font-size: 14px;}
+   #work_area { padding: 10px 0;}
+   .child_area { width: 98%;}
+   .child_area h2 { font-size: 25px;margin-bottom: 20px;}
+   .child_service_area .service_image {width: 20%;  margin-bottom: 8px;}
+   #footer_area {padding: 20px 0;}
+   .child_footer { padding: 1%; margin: 0 1% 10px; width: 96%; }
+   .left_copyright {float: none;width: 100%; margin-bottom: -20px;}
+   .inner_copyright_area p {font-size: 12px;text-align: center;}
+   .right_copyright {width: 100%; margin-top: 0px;}
+
+}
+
+/* Ipad pro layout */
+@media only screen and
